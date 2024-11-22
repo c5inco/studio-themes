@@ -4,8 +4,9 @@
   "author": "Chris Sinco",
   "parentTheme": "ExperimentalLight",
   "nameKey": "cloudyblue.theme.name",
-  "editorScheme": "Cloudy Blue Scheme",
+  "editorScheme": "/CloudyBlueScheme.xml",
   "colors": {
+    "Debug": "#ff00ff",
     "PrimaryBackground": "#005AC1",
     "ContentBackground": "#FEFBFF",
     "SecondaryBackground": "#F2F4FF",
@@ -16,7 +17,7 @@
     "SelectionActive": "#D8E2FF",
     "SelectionInactive": "#dbe2f9",
     "SelectionForeground": "#001a41",
-    "Foreground": "#001A41",
+    "Foreground": "#1B1B1F",
     "SecondaryForeground": "#575e71",
     "InverseSurface": "#2f3036",
     "InverseOnSurface": "#f0f0f7",
@@ -67,16 +68,6 @@
       }
     },
     "MainToolbar": {
-      "Icon": {
-        "background": "Gray2",
-        "pressedBackground": "Gray3",
-        "insets": "5,5,5,5"
-      },
-      "Dropdown": {
-        "pressedBackground": "Gray3",
-        "maxWidth": 350,
-        "transparentHoverBackground": "#FFFFFF1A"
-      },
       "background": "MainToolbarBackground",
       "foreground": "MainToolbarForeground",
       "inactiveBackground": "#001E49",
@@ -92,6 +83,19 @@
       "separatorColor": "#004494",
       "borderColor": "#003271"
     },
+
+    "DefaultTabs": {
+      "background": "ContentBackground",
+      "underlinedTabBackground": "ContentBackground",
+      "underlinedTabForeground": "Foreground"
+    },
+
+    "EditorTabs": {
+      "background": "ContentBackground",
+      "underlinedTabBackground": "ContentBackground",
+      "underlinedTabForeground": "Foreground"
+    },
+
     "Editor": {
       "SearchField": {
         "background": "SecondaryBackground"
@@ -112,11 +116,6 @@
         "iconHoverBackground": "#0000000D",
         "selectionBackground": "MainToolbarBackground"
       }
-    },
-
-    "DefaultTabs": {
-      "background": "ContentBackground",
-      "underlinedTabBackground": "ContentBackground"
     }
   }
 }
