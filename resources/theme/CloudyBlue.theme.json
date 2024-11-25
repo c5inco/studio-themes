@@ -4,7 +4,7 @@
   "author": "Chris Sinco",
   "parentTheme": "ExperimentalLight",
   "nameKey": "cloudyblue.theme.name",
-  "editorScheme": "/CloudyBlueScheme.xml",
+  "editorScheme": "Cloudy Blue",
   "colors": {
     "Seed": "#4285F4",
     "Debug": "#ff00ff",
@@ -79,7 +79,8 @@
     "EditorTabs": {
       "background": "ContentBackground",
       "underlinedTabBackground": "ContentBackground",
-      "underlinedTabForeground": "Foreground"
+      "underlinedTabForeground": "Foreground",
+      "hoverBackground": "#00000000"
     },
     "Editor": {
       "SearchField": {
