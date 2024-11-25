@@ -34,6 +34,5 @@
 
     <extensions defaultExtensionNs="com.intellij">
         <themeProvider id="CloudyBlueTheme" path="/theme/CloudyBlue.theme.json" targetUi="new"/>
-        <bundledColorScheme id="Cloudy Blue Scheme" path="/theme/CloudyBlueScheme"/>
     </extensions>
 </idea-plugin>
