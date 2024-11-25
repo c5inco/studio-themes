@@ -126,7 +126,12 @@
     </option>
     <option name="DEFAULT_CLASS_NAME">
       <value>
-        <option name="FOREGROUND" value="5d09e3" />
+        <option name="FOREGROUND" value="3692b9" />
+      </value>
+    </option>
+    <option name="DEFAULT_CLASS_REFERENCE">
+      <value>
+        <option name="FOREGROUND" value="3692b9" />
       </value>
     </option>
     <option name="DEFAULT_CONSTANT">
@@ -173,7 +178,7 @@
     </option>
     <option name="DEFAULT_INSTANCE_FIELD">
       <value>
-        <option name="FOREGROUND" value="9954f4" />
+        <option name="FOREGROUND" value="5d09e3" />
       </value>
     </option>
     <option name="DEFAULT_INTERFACE_NAME">
@@ -410,7 +415,7 @@
     </option>
     <option name="KOTLIN_NAMED_ARGUMENT">
       <value>
-        <option name="FOREGROUND" value="3693bb" />
+        <option name="FOREGROUND" value="3a77d8" />
       </value>
     </option>
     <option name="List/map to object conversion">
