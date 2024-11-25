@@ -6,12 +6,14 @@
   "nameKey": "cloudyblue.theme.name",
   "editorScheme": "/CloudyBlueScheme.xml",
   "colors": {
+    "Seed": "#4285F4",
     "Debug": "#ff00ff",
     "PrimaryBackground": "#005AC1",
     "ContentBackground": "#FEFBFF",
     "SecondaryBackground": "#F2F4FF",
     "MainToolbarBackground": "#001A41",
     "MainToolbarForeground": "#d8e2ff",
+    "HoverBackground": "#d8e2ff",
     "SeparatorFill": "#74777F",
     "BorderColor": "#D8E2FF",
     "SelectionActive": "#D8E2FF",
@@ -19,11 +21,19 @@
     "SelectionForeground": "#001a41",
     "Foreground": "#1B1B1F",
     "SecondaryForeground": "#575e71",
+    "DisabledForeground": "#6F778B",
     "InverseSurface": "#2f3036",
     "InverseOnSurface": "#f0f0f7",
     "InverseOnSurfaceSecondary": "#c4c6d0",
     "InversePrimary": "#adc6ff",
     "Outline": "#74777f"
+  },
+  "icons": {
+    "ColorPalette": {
+
+      "Gray.Stroke": "#005AC1",
+      "Gray.Fill": "#D8E2FF"
+    }
   },
   "ui": {
     "*": {
@@ -33,38 +43,50 @@
       "selectionInactiveBackground": "SelectionInactive",
       "selectionForeground": "SelectionForeground",
       "selectionInactiveForeground": "SelectionForeground",
+      "hoverBackground": "#D8E2FF",
       "infoForeground": "SecondaryForeground",
-      "disabledForeground": "SecondaryForeground",
-      "inactiveForeground": "SecondaryForeground",
-      "acceleratorForeground": "SecondaryForeground",
+      "disabledForeground": "DisabledForeground",
+      "inactiveForeground": "DisabledForeground",
+      "acceleratorForeground": "DisabledForeground",
       "acceleratorSelectionForeground": "SecondaryForeground",
-      "shortcutForeground": "SecondaryForeground",
+      "shortcutForeground": "DisabledForeground",
       "separatorColor": "BorderColor",
       "underlineColor": "PrimaryBackground",
       "inactiveUnderlineColor": "#BFC6DC"
     },
+    "ActionButton": {
+      "hoverBackground": "HoverBackground",
+      "hoverBorderColor": "#00000000",
+      "pressedBackground": "SelectionInactive",
+      "pressedBorderColor": "#00000000",
+      "hoverSeparatorColor": "BorderColor"
+    },
     "Borders.color": "BorderColor",
     "Button.background": "PrimaryBackground",
-    "ToolTip": {
-      "background": "MainToolbarBackground",
-      "foreground": "InverseOnSurface",
-      "infoForeground": "InverseOnSurfaceSecondary",
-      "shortcutForeground": "InverseOnSurfaceSecondary",
-      "linkForeground": "InversePrimary",
-      "borderColor": "Outline"
+    "CompletionPopup": {
+      "foreground": "Foreground",
+      "matchForeground": "PrimaryBackground",
+      "Advertiser": {
+        "foreground": "DisabledForeground",
+        "background": "SecondaryBackground"
+      }
     },
-    "ToolWindow": {
-      "Header": {
-        "inactiveBackground": "SecondaryBackground"
+    "DefaultTabs": {
+      "background": "ContentBackground",
+      "underlinedTabBackground": "ContentBackground",
+      "underlinedTabForeground": "Foreground"
+    },
+    "EditorTabs": {
+      "background": "ContentBackground",
+      "underlinedTabBackground": "ContentBackground",
+      "underlinedTabForeground": "Foreground"
+    },
+    "Editor": {
+      "SearchField": {
+        "background": "SecondaryBackground"
       },
-      "Button": {
-        "selectedBackground": "PrimaryBackground"
-      },
-      "Stripe": {
-        "separatorColor": "BorderColor",
-        "DragAndDrop": {
-          "separatorColor": "BorderColor"
-        }
+      "Toolbar": {
+        "borderColor": "BorderColor"
       }
     },
     "MainToolbar": {
@@ -83,38 +105,38 @@
       "separatorColor": "#004494",
       "borderColor": "#003271"
     },
-
-    "DefaultTabs": {
-      "background": "ContentBackground",
-      "underlinedTabBackground": "ContentBackground",
-      "underlinedTabForeground": "Foreground"
-    },
-
-    "EditorTabs": {
-      "background": "ContentBackground",
-      "underlinedTabBackground": "ContentBackground",
-      "underlinedTabForeground": "Foreground"
-    },
-
-    "Editor": {
-      "SearchField": {
-        "background": "SecondaryBackground"
+    "StatusBar": {
+      "Widget": {
+        "foreground": "DisabledForeground",
+        "hoverForeground": "Foreground",
+        "pressedBackground": "SelectionInactive"
       },
-      "Toolbar": {
-        "borderColor": "BorderColor"
+      "Breadcrumbs": {
+        "foreground": "DisabledForeground",
+        "hoverForeground": "Foreground"
+      }
+    },
+    "ToolTip": {
+      "background": "MainToolbarBackground",
+      "foreground": "InverseOnSurface",
+      "infoForeground": "InverseOnSurfaceSecondary",
+      "shortcutForeground": "InverseOnSurfaceSecondary",
+      "linkForeground": "InversePrimary",
+      "borderColor": "Outline"
+    },
+    "ToolWindow": {
+      "Header": {
+        "inactiveBackground": "SecondaryBackground"
       },
-      "ToolTip": {
-        "foreground": "InverseOnSurface",
-        "background": "MainToolbarBackground",
-        "border": "Outline",
-        "errorBackground": "Red12",
-        "errorBorder": "Red9",
-        "successBackground": "Green11",
-        "successBorder": "Green8",
-        "warningBackground": "Yellow9",
-        "warningBorder": "Yellow6",
-        "iconHoverBackground": "#0000000D",
-        "selectionBackground": "MainToolbarBackground"
+      "Button": {
+        "hoverBackground": "HoverBackground",
+        "selectedBackground": "PrimaryBackground"
+      },
+      "Stripe": {
+        "separatorColor": "BorderColor",
+        "DragAndDrop": {
+          "separatorColor": "BorderColor"
+        }
       }
     }
   }
