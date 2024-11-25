@@ -35,10 +35,10 @@
     <option name="IGNORED_DELETED_LINES_BORDER_COLOR" value="767a8a" />
     <option name="IGNORED_MODIFIED_LINES_BORDER_COLOR" value="88adf7" />
     <option name="INDENT_GUIDE" value="d8e2ff" />
-    <option name="INFORMATION_HINT" value="F9F9FF" />
+    <option name="INFORMATION_HINT" value="FAFAFF" />
     <option name="LINE_NUMBERS_COLOR" value="aeb3c2" />
     <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="767a8a" />
-    <option name="LOOKUP_COLOR" value="F9F9FF" />
+    <option name="LOOKUP_COLOR" value="FAFAFF" />
     <option name="MATCHED_BRACES_INDENT_GUIDE_COLOR" value="62b3b3" />
     <option name="METHOD_SEPARATORS_COLOR" value="dfe1e5" />
     <option name="MODIFIED_LINES_COLOR" value="88adf7" />
@@ -454,7 +454,7 @@
     <option name="TEXT">
       <value>
         <option name="FOREGROUND" value="1b1b1f" />
-        <option name="BACKGROUND" value="F9F9FF" />
+        <option name="BACKGROUND" value="FAFAFF" />
       </value>
     </option>
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
