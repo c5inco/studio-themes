@@ -31,14 +31,18 @@
   },
   "icons": {
     "ColorPalette": {
+      "Actions.GreyInline": "#005AC1",
       "Gray.Stroke": "#005AC1",
+      "Gray.SecondaryStroke": "#005AC1",
+      "Tree.iconColor": "#005AC1",
       "Gray.Fill": "#D8E2FF",
       "Checkbox.Background.Default": "ContentBackground",
       "Checkbox.Border.Default": "InversePrimary",
       "Checkbox.Foreground.Selected": "PrimaryBackground",
       "Checkbox.Background.Selected": "#D8E2FF",
       "Checkbox.Border.Selected": "PrimaryBackground",
-      "Checkbox.Focus.Wide": "PrimaryBackground"
+      "Checkbox.Focus.Wide": "PrimaryBackground",
+      "Objects.Grey": "#005AC1"
     }
   },
   "ui": {
@@ -75,7 +79,6 @@
       "focusedBorderColor": "PrimaryBackground",
       "startBackground": "ContentBackground",
       "endBackground": "ContentBackground",
-
       "default": {
         "foreground": "MainToolbarForeground",
         "startBackground": "PrimaryBackground",
@@ -178,6 +181,12 @@
           "separatorColor": "BorderColor"
         }
       }
+    },
+    "Tree": {
+      "collapsedIcon": "/theme/icons/chevronRight.svg",
+      "collapsedSelectedIcon": "/theme/icons/chevronRight.svg",
+      "expandedIcon": "/theme/icons/chevronDown.svg",
+      "expandedSelectedIcon": "/theme/icons/chevronDown.svg"
     }
   }
 }
