@@ -127,7 +127,19 @@
       "background": "MainToolbarBackground",
       "foreground": "MainToolbarForeground",
       "inactiveBackground": "#001E49",
-      "separatorColor": "BorderColor"
+      "separatorColor": "BorderColor",
+      "Icon": {
+        "background": "MainToolbarBackground",
+        "hoverBackground": "#FFFFFF1A",
+        "pressedBackground": "#FFFFFF29"
+      },
+      "Dropdown": {
+        "foreground": "MainToolbarForeground",
+        "background": "MainToolbarBackground",
+        "hoverBackground": "#FFFFFF1A",
+        "transparentHoverBackground": "#FFFFFF1A",
+        "pressedBackground": "#FFFFFF29"
+      }
     },
     "MainWindow.Tab": {
       "selectedForeground": "MainToolbarForeground",
