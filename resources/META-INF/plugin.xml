@@ -34,5 +34,6 @@
 
     <extensions defaultExtensionNs="com.intellij">
         <themeProvider id="CloudyBlueTheme" path="/theme/CloudyBlue.theme.json" targetUi="new"/>
+        <themeProvider id="NewDarcula" path="/theme/NewDarcula.theme.json" targetUi="new"/>
     </extensions>
 </idea-plugin>
