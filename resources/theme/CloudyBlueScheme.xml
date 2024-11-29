@@ -12,7 +12,7 @@
     <option name="DELETED_LINES_COLOR" value="767a8a" />
     <option name="DIFF_SEPARATORS_BACKGROUND" value="e4e6eb" />
     <option name="DOCUMENTATION_COLOR" value="f2f4ff" />
-    <option name="ERROR_HINT" value="ffe8e8" />
+    <option name="ERROR_HINT" value="DE3730" />
     <option name="FILESTATUS_ADDED" value="67d17" />
     <option name="FILESTATUS_COPIED" value="67d17" />
     <option name="FILESTATUS_DELETED" value="6c707e" />
@@ -36,8 +36,8 @@
     <option name="IGNORED_MODIFIED_LINES_BORDER_COLOR" value="88adf7" />
     <option name="INDENT_GUIDE" value="d8e2ff" />
     <option name="INFORMATION_HINT" value="FAFAFF" />
-    <option name="LINE_NUMBERS_COLOR" value="aeb3c2" />
-    <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="767a8a" />
+    <option name="LINE_NUMBERS_COLOR" value="A3ABC0" />
+    <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="005AC1" />
     <option name="LOOKUP_COLOR" value="FAFAFF" />
     <option name="MATCHED_BRACES_INDENT_GUIDE_COLOR" value="62b3b3" />
     <option name="METHOD_SEPARATORS_COLOR" value="dfe1e5" />
@@ -47,7 +47,7 @@
     <option name="QUESTION_HINT" value="f5f8fe" />
     <option name="RECENT_LOCATIONS_SELECTION" value="e7effd" />
     <option name="RIGHT_MARGIN_COLOR" value="d8e2ff" />
-    <option name="SELECTED_INDENT_GUIDE" value="aeb3c2" />
+    <option name="SELECTED_INDENT_GUIDE" value="A3ABC0" />
     <option name="SELECTION_BACKGROUND" value="adc6ff" />
     <option name="SELECTION_FOREGROUND" value="" />
     <option name="TEARLINE_COLOR" value="d4d4d4" />
@@ -113,6 +113,12 @@
     </option>
     <option name="CUSTOM_NUMBER_ATTRIBUTES" baseAttributes="DEFAULT_NUMBER" />
     <option name="CUSTOM_STRING_ATTRIBUTES" baseAttributes="DEFAULT_STRING" />
+    <option name="ComposableCallTextAttributes">
+      <value>
+        <option name="FOREGROUND" value="9900" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
     <option name="DEFAULT_ATTRIBUTE">
       <value>
         <option name="FOREGROUND" value="174ad4" />
@@ -412,6 +418,9 @@
       <value>
         <option name="FOREGROUND" value="264eff" />
       </value>
+    </option>
+    <option name="KOTLIN_FUNCTION_LITERAL_BRACES_AND_ARROW">
+      <value />
     </option>
     <option name="KOTLIN_NAMED_ARGUMENT">
       <value>
