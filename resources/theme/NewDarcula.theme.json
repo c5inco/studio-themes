@@ -158,6 +158,13 @@
       "borderColor": "MainToolbarBackground",
       "linkForeground": "#589DF6"
     },
+    "Popup": {
+      "Header": {
+        "activeBackground": "SecondaryBackground",
+        "inactiveBackground": "SecondaryBackground",
+        "inactiveForeground": "SecondaryForeground"
+      }
+    },
     "StatusBar": {
       "Widget": {
         "foreground": "SecondaryForeground",
