@@ -195,10 +195,10 @@
       }
     },
     "Tree": {
-      "collapsedIcon": "/theme/icons/chevronRight.svg",
-      "collapsedSelectedIcon": "/theme/icons/chevronRight.svg",
-      "expandedIcon": "/theme/icons/chevronDown.svg",
-      "expandedSelectedIcon": "/theme/icons/chevronDown.svg"
+      "collapsedIcon": "/theme/icons/cloudyBlue/chevronRight.svg",
+      "collapsedSelectedIcon": "/theme/icons/cloudyBlue/chevronRight.svg",
+      "expandedIcon": "/theme/icons/cloudyBlue/chevronDown.svg",
+      "expandedSelectedIcon": "/theme/icons/cloudyBlue/chevronDown.svg"
     }
   }
 }

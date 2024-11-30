@@ -38,9 +38,9 @@
       "Tree.iconColor": "IconGrayStroke",
       "Gray.Fill": "#AFB1B31A",
       "Checkbox.Background.Default": "ContentBackground",
-      "Checkbox.Border.Default": "InversePrimary",
-      "Checkbox.Foreground.Selected": "PrimaryBackground",
-      "Checkbox.Background.Selected": "#D8E2FF",
+      "Checkbox.Border.Default": "InputBorderColor",
+      "Checkbox.Foreground.Selected": "Gray14",
+      "Checkbox.Background.Selected": "PrimaryBackground",
       "Checkbox.Border.Selected": "PrimaryBackground",
       "Checkbox.Focus.Wide": "PrimaryBackground",
       "Objects.Grey": "IconGrayStroke"
@@ -196,10 +196,10 @@
       }
     },
     "Tree": {
-      "collapsedIcon": "/theme/icons/chevronRight.svg",
-      "collapsedSelectedIcon": "/theme/icons/chevronRight.svg",
-      "expandedIcon": "/theme/icons/chevronDown.svg",
-      "expandedSelectedIcon": "/theme/icons/chevronDown.svg"
+      "collapsedIcon": "/theme/icons/newDarcula/chevronRight.svg",
+      "collapsedSelectedIcon": "/theme/icons/newDarcula/chevronRight.svg",
+      "expandedIcon": "/theme/icons/newDarcula/chevronDown.svg",
+      "expandedSelectedIcon": "/theme/icons/newDarcula/chevronDown.svg"
     }
   }
 }
