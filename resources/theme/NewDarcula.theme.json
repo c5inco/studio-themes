@@ -11,23 +11,24 @@
     "ContentBackground": "#2B2B2B",
     "SecondaryBackground": "#3C3F41",
     "MainToolbarBackground": "#3C3F41",
-    "MainToolbarForeground": "#d8e2ff",
-    "HoverBackground": "#d8e2ff",
-    "SeparatorFill": "#74777F",
+    "MainToolbarForeground": "#BBBBBB",
+    "HoverBackground": "#4C5052",
+    "SeparatorFill": "#515151",
     "BorderColor": "#323232",
-    "SelectionActive": "#D8E2FF",
-    "SelectionInactive": "#dbe2f9",
+    "InputBorderColor": "#5E6060",
+    "SelectionActive": "#26344d",
+    "SelectionInactive": "#5C6164",
     "SelectionForeground": "#001a41",
-    "Foreground": "#1B1B1F",
-    "SecondaryForeground": "#575e71",
-    "DisabledForeground": "#6F778B",
+    "Foreground": "#BBBBBB",
+    "SecondaryForeground": "#8C8C8C",
+    "DisabledForeground": "#777777",
     "InverseSurface": "#2f3036",
     "InverseOnSurface": "#f0f0f7",
     "InverseOnSurfaceSecondary": "#c4c6d0",
-    "InversePrimary": "#adc6ff",
+    "InversePrimary": "#589DF6",
     "Outline": "#323232",
     "OutlineVariant": "#C2C6D6",
-    "IconGrayStroke": "#AFB1B3"
+    "IconGrayStroke": "#bbbdbf"
   },
   "icons": {
     "ColorPalette": {
@@ -49,11 +50,11 @@
     "*": {
       "background": "SecondaryBackground",
       "borderColor": "BorderColor",
-      "selectionBackground": "SelectionForeground",
-      "selectionInactiveBackground": "#1B1B1F",
-      "selectionForeground": "SelectionInactive",
-      "selectionInactiveForeground": "SelectionInactive",
-      "hoverBackground": "#D8E2FF",
+      "selectionBackground": "SelectionActive",
+      "selectionInactiveBackground": "#5C616480",
+      "selectionForeground": "Gray14",
+      "selectionInactiveForeground": "Foreground",
+      "hoverBackground": "HoverBackground",
       "infoForeground": "SecondaryForeground",
       "disabledForeground": "DisabledForeground",
       "inactiveForeground": "DisabledForeground",
@@ -62,7 +63,7 @@
       "shortcutForeground": "DisabledForeground",
       "separatorColor": "BorderColor",
       "underlineColor": "PrimaryBackground",
-      "inactiveUnderlineColor": "#BFC6DC"
+      "inactiveUnderlineColor": "#464A4D"
     },
     "ActionButton": {
       "hoverBackground": "HoverBackground",
@@ -74,18 +75,18 @@
     "Borders.color": "BorderColor",
     "Button": {
       "background": "SecondaryBackground",
-      "startBorderColor": "InversePrimary",
-      "endBorderColor": "InversePrimary",
+      "startBorderColor": "InputBorderColor",
+      "endBorderColor": "InputBorderColor",
       "focusedBorderColor": "PrimaryBackground",
       "startBackground": "ContentBackground",
       "endBackground": "ContentBackground",
       "default": {
-        "foreground": "MainToolbarForeground",
+        "foreground": "Gray14",
         "startBackground": "PrimaryBackground",
         "endBackground": "PrimaryBackground",
         "startBorderColor": "PrimaryBackground",
         "endBorderColor": "PrimaryBackground",
-        "focusedBorderColor": "Gray14"
+        "focusedBorderColor": "PrimaryBackground"
       }
     },
     "ComboBox": {
@@ -101,7 +102,7 @@
       }
     },
     "Component": {
-      "borderColor": "InversePrimary",
+      "borderColor": "InputBorderColor",
       "focusedBorderColor": "ContentBackground"
     },
     "DefaultTabs": {
@@ -126,7 +127,7 @@
     "MainToolbar": {
       "background": "MainToolbarBackground",
       "foreground": "MainToolbarForeground",
-      "inactiveBackground": "#001E49",
+      "inactiveBackground": "MainToolbarBackground",
       "separatorColor": "BorderColor",
       "Icon": {
         "background": "MainToolbarBackground",
@@ -144,27 +145,27 @@
     "MainWindow.Tab": {
       "selectedForeground": "MainToolbarForeground",
       "selectedBackground": "MainToolbarBackground",
-      "selectedInactiveBackground": "#001E49",
-      "foreground": "InversePrimary",
-      "background": "#00285D",
-      "hoverBackground": "#001E49",
-      "separatorColor": "#004494",
-      "borderColor": "#003271"
+      "selectedInactiveBackground": "MainToolbarBackground",
+      "foreground": "SecondaryForeground",
+      "background": "#131314",
+      "hoverBackground": "#242426",
+      "separatorColor": "BorderColor",
+      "borderColor": "BorderColor"
     },
     "Notification": {
       "background": "MainToolbarBackground",
       "foreground": "InverseOnSurface",
       "borderColor": "MainToolbarBackground",
-      "linkForeground": "InversePrimary"
+      "linkForeground": "#589DF6"
     },
     "StatusBar": {
       "Widget": {
-        "foreground": "DisabledForeground",
+        "foreground": "SecondaryForeground",
         "hoverForeground": "Foreground",
         "pressedBackground": "SelectionInactive"
       },
       "Breadcrumbs": {
-        "foreground": "DisabledForeground",
+        "foreground": "SecondaryForeground",
         "hoverForeground": "Foreground"
       }
     },
