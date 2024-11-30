@@ -13,6 +13,7 @@
     "MainToolbarBackground": "#3C3F41",
     "MainToolbarForeground": "#BBBBBB",
     "HoverBackground": "#4C5052",
+    "InputBackground": "#4C5052",
     "SeparatorFill": "#515151",
     "BorderColor": "#323232",
     "InputBorderColor": "#5E6060",
@@ -78,8 +79,8 @@
       "startBorderColor": "InputBorderColor",
       "endBorderColor": "InputBorderColor",
       "focusedBorderColor": "PrimaryBackground",
-      "startBackground": "ContentBackground",
-      "endBackground": "ContentBackground",
+      "startBackground": "InputBackground",
+      "endBackground": "InputBackground",
       "default": {
         "foreground": "Gray14",
         "startBackground": "PrimaryBackground",
@@ -90,7 +91,12 @@
       }
     },
     "ComboBox": {
+      "ArrowButton": {
+        "background": "InputBackground",
+        "nonEditableBackground": "InputBackground"
+      },
       "background": "ContentBackground",
+      "nonEditableBackground": "InputBackground",
       "disabledBackground": "SecondaryBackground"
     },
     "CompletionPopup": {

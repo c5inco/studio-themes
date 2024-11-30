@@ -89,7 +89,12 @@
       }
     },
     "ComboBox": {
+      "ArrowButton": {
+        "background": "ContentBackground",
+        "nonEditableBackground": "ContentBackground"
+      },
       "background": "ContentBackground",
+      "nonEditableBackground": "ContentBackground",
       "disabledBackground": "SecondaryBackground"
     },
     "CompletionPopup": {
