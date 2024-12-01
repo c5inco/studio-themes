@@ -4,14 +4,14 @@
   "author": "Chris Sinco",
   "parentTheme": "ExperimentalDark",
   "nameKey": "inbedby7pm.theme.name",
-  "editorScheme": "/InBedBy7PmScheme.xml",
+  "editorScheme": "In Bed By 7pm (Current)",
   "colors": {
     "Debug": "#ff00ff",
     "PrimaryBackground": "#4758A9",
     "ContentBackground": "#292c3d",
     "SecondaryBackground": "#292c3d",
     "MainToolbarBackground": "#292c3d",
-    "MainToolbarForeground": "#B9C3FF",
+    "MainToolbarForeground": "#ebecf1",
     "HoverBackground": "#474364",
     "InputBackground": "#4C5052",
     "SeparatorFill": "#424659",
@@ -114,13 +114,13 @@
     "DefaultTabs": {
       "background": "ContentBackground",
       "underlinedTabBackground": "ContentBackground",
-      "underlinedTabForeground": "Foreground"
+      "underlinedTabForeground": "Foreground",
     },
     "EditorTabs": {
       "background": "ContentBackground",
       "underlinedTabBackground": "ContentBackground",
       "underlinedTabForeground": "Foreground",
-      "hoverBackground": "#00000000"
+      "hoverBackground": "#00000000",
     },
     "Editor": {
       "SearchField": {
@@ -154,8 +154,8 @@
       "selectedBackground": "MainToolbarBackground",
       "selectedInactiveBackground": "MainToolbarBackground",
       "foreground": "SecondaryForeground",
-      "background": "#131314",
-      "hoverBackground": "#000000",
+      "background": "#1e1e29",
+      "hoverBackground": "#22222e",
       "separatorColor": "BorderColor",
       "borderColor": "BorderColor"
     },
