@@ -114,13 +114,13 @@
     "DefaultTabs": {
       "background": "ContentBackground",
       "underlinedTabBackground": "ContentBackground",
-      "underlinedTabForeground": "Foreground",
+      "underlinedTabForeground": "Foreground"
     },
     "EditorTabs": {
       "background": "ContentBackground",
       "underlinedTabBackground": "ContentBackground",
       "underlinedTabForeground": "Foreground",
-      "hoverBackground": "#00000000",
+      "hoverBackground": "#00000000"
     },
     "Editor": {
       "SearchField": {
