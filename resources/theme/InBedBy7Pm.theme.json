@@ -4,7 +4,7 @@
   "author": "Chris Sinco",
   "parentTheme": "ExperimentalDark",
   "nameKey": "inbedby7pm.theme.name",
-  "editorScheme": "Dark",
+  "editorScheme": "/InBedBy7PmScheme.xml",
   "colors": {
     "Debug": "#ff00ff",
     "PrimaryBackground": "#4758A9",
@@ -12,13 +12,13 @@
     "SecondaryBackground": "#292c3d",
     "MainToolbarBackground": "#292c3d",
     "MainToolbarForeground": "#B9C3FF",
-    "HoverBackground": "#4C5052",
+    "HoverBackground": "#474364",
     "InputBackground": "#4C5052",
     "SeparatorFill": "#424659",
     "BorderColor": "#384379",
     "InputBorderColor": "#5E6060",
     "SelectionActive": "#384379",
-    "SelectionInactive": "#424659",
+    "SelectionInactive": "#474364",
     "SelectionForeground": "#001a41",
     "Foreground": "#ebecf1",
     "SecondaryForeground": "#89a4bb",
@@ -64,7 +64,7 @@
       "shortcutForeground": "DisabledForeground",
       "separatorColor": "BorderColor",
       "underlineColor": "PrimaryBackground",
-      "inactiveUnderlineColor": "#464A4D"
+      "inactiveUnderlineColor": "SelectionInactive"
     },
     "ActionButton": {
       "hoverBackground": "HoverBackground",
@@ -130,6 +130,7 @@
         "borderColor": "BorderColor"
       }
     },
+    "EditorPane.splitBorder": "BorderColor",
     "MainToolbar": {
       "background": "MainToolbarBackground",
       "foreground": "MainToolbarForeground",
@@ -154,7 +155,7 @@
       "selectedInactiveBackground": "MainToolbarBackground",
       "foreground": "SecondaryForeground",
       "background": "#131314",
-      "hoverBackground": "#242426",
+      "hoverBackground": "#000000",
       "separatorColor": "BorderColor",
       "borderColor": "BorderColor"
     },
@@ -193,6 +194,7 @@
       "linkForeground": "InversePrimary",
       "borderColor": "Outline"
     },
+    "ToolBar.separatorColor": "SeparatorFill",
     "ToolWindow": {
       "Header": {
         "inactiveBackground": "SecondaryBackground"
