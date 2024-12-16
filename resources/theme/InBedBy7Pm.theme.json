@@ -120,7 +120,8 @@
       "background": "ContentBackground",
       "underlinedTabBackground": "ContentBackground",
       "underlinedTabForeground": "Foreground",
-      "hoverBackground": "#00000000"
+      "hoverBackground": "#00000000",
+      "underTabsBorderColor": "BorderColor"
     },
     "Editor": {
       "SearchField": {
@@ -160,9 +161,9 @@
       "borderColor": "BorderColor"
     },
     "Notification": {
-      "background": "MainToolbarBackground",
+      "background": "#1e1e29",
       "foreground": "InverseOnSurface",
-      "borderColor": "MainToolbarBackground",
+      "borderColor": "BorderColor",
       "linkForeground": "#589DF6"
     },
     "Popup": {
@@ -187,12 +188,12 @@
       "background": "ContentBackground"
     },
     "ToolTip": {
-      "background": "MainToolbarBackground",
+      "background": "#1e1e29",
       "foreground": "InverseOnSurface",
       "infoForeground": "InverseOnSurfaceSecondary",
       "shortcutForeground": "InverseOnSurfaceSecondary",
       "linkForeground": "InversePrimary",
-      "borderColor": "Outline"
+      "borderColor": "BorderColor"
     },
     "ToolBar.separatorColor": "SeparatorFill",
     "ToolWindow": {
