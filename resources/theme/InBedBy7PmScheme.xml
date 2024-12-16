@@ -203,7 +203,7 @@
         </option>
         <option name="DEFAULT_BLOCK_COMMENT">
             <value>
-                <option name="FOREGROUND" value="b6b5cc" />
+                <option name="FOREGROUND" value="6c7a80" />
             </value>
         </option>
         <option name="DEFAULT_BRACES">
@@ -214,6 +214,11 @@
         <option name="DEFAULT_BRACKETS">
             <value>
                 <option name="FOREGROUND" value="faf39f" />
+            </value>
+        </option>
+        <option name="DEFAULT_CLASS_NAME">
+            <value>
+                <option name="FOREGROUND" value="cdbef7" />
             </value>
         </option>
         <option name="DEFAULT_CLASS_REFERENCE">
@@ -296,12 +301,12 @@
         </option>
         <option name="DEFAULT_LINE_COMMENT">
             <value>
-                <option name="FOREGROUND" value="b6b5cc" />
+                <option name="FOREGROUND" value="6c7a80" />
             </value>
         </option>
         <option name="DEFAULT_METADATA">
             <value>
-                <option name="FOREGROUND" value="eeadf1" />
+                <option name="FOREGROUND" value="e68ae1" />
             </value>
         </option>
         <option name="DEFAULT_NUMBER">
@@ -316,7 +321,7 @@
         </option>
         <option name="DEFAULT_PARAMETER">
             <value>
-                <option name="FOREGROUND" value="e9f3b7" />
+                <option name="FOREGROUND" value="9dd2e8" />
             </value>
         </option>
         <option name="DEFAULT_PARENTHS">
@@ -545,6 +550,11 @@
                 <option name="FONT_TYPE" value="1" />
             </value>
         </option>
+        <option name="KOTLIN_ARROW">
+            <value>
+                <option name="FOREGROUND" value="d56e7f" />
+            </value>
+        </option>
         <option name="KOTLIN_LABEL">
             <value>
                 <option name="FOREGROUND" value="32b8af" />
@@ -558,7 +568,7 @@
         </option>
         <option name="KOTLIN_NAMED_ARGUMENT">
             <value>
-                <option name="FOREGROUND" value="8ad0ef" />
+                <option name="FOREGROUND" value="e2c3b2" />
             </value>
         </option>
         <option name="KOTLIN_PACKAGE_FUNCTION_CALL">
