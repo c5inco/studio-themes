@@ -211,10 +211,10 @@
       }
     },
     "Tree": {
-      "collapsedIcon": "/theme/icons/newDarcula/chevronRight.svg",
-      "collapsedSelectedIcon": "/theme/icons/newDarcula/chevronRight.svg",
-      "expandedIcon": "/theme/icons/newDarcula/chevronDown.svg",
-      "expandedSelectedIcon": "/theme/icons/newDarcula/chevronDown.svg"
+      "collapsedIcon": "/theme/icons/inBedBy7Pm/chevronRight.svg",
+      "collapsedSelectedIcon": "/theme/icons/inBedBy7Pm/chevronRight.svg",
+      "expandedIcon": "/theme/icons/inBedBy7Pm/chevronDown.svg",
+      "expandedSelectedIcon": "/theme/icons/inBedBy7Pm/chevronDown.svg"
     }
   }
 }
