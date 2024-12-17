@@ -189,6 +189,11 @@
         </option>
         <option name="CUSTOM_STRING_ATTRIBUTES" baseAttributes="DEFAULT_STRING" />
         <option name="CUSTOM_VALID_STRING_ESCAPE_ATTRIBUTES" baseAttributes="DEFAULT_VALID_STRING_ESCAPE" />
+        <option name="ComposableCallTextAttributes">
+            <value>
+                <option name="FOREGROUND" value="ace89d" />
+            </value>
+        </option>
         <option name="DEBUGGER_INLINED_VALUES_EXECUTION_LINE">
             <value>
                 <option name="FOREGROUND" value="849fbf" />
@@ -306,7 +311,7 @@
         </option>
         <option name="DEFAULT_METADATA">
             <value>
-                <option name="FOREGROUND" value="e68ae1" />
+                <option name="FOREGROUND" value="e89dd2" />
             </value>
         </option>
         <option name="DEFAULT_NUMBER">
@@ -317,11 +322,6 @@
         <option name="DEFAULT_OPERATION_SIGN">
             <value>
                 <option name="FOREGROUND" value="bcbec4" />
-            </value>
-        </option>
-        <option name="DEFAULT_PARAMETER">
-            <value>
-                <option name="FOREGROUND" value="9dd2e8" />
             </value>
         </option>
         <option name="DEFAULT_PARENTHS">
@@ -568,7 +568,7 @@
         </option>
         <option name="KOTLIN_NAMED_ARGUMENT">
             <value>
-                <option name="FOREGROUND" value="e2c3b2" />
+                <option name="FOREGROUND" value="9dace8" />
             </value>
         </option>
         <option name="KOTLIN_PACKAGE_FUNCTION_CALL">
