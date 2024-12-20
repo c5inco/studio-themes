@@ -12,7 +12,7 @@
     <option name="DELETED_LINES_COLOR" value="767a8a" />
     <option name="DIFF_SEPARATORS_BACKGROUND" value="e4e6eb" />
     <option name="DOCUMENTATION_COLOR" value="f2f4ff" />
-    <option name="ERROR_HINT" value="DE3730" />
+    <option name="ERROR_HINT" value="de3730" />
     <option name="FILESTATUS_ADDED" value="67d17" />
     <option name="FILESTATUS_COPIED" value="67d17" />
     <option name="FILESTATUS_DELETED" value="6c707e" />
@@ -35,11 +35,11 @@
     <option name="IGNORED_DELETED_LINES_BORDER_COLOR" value="767a8a" />
     <option name="IGNORED_MODIFIED_LINES_BORDER_COLOR" value="88adf7" />
     <option name="INDENT_GUIDE" value="d8e2ff" />
-    <option name="INFORMATION_HINT" value="FAFAFF" />
-    <option name="LINE_NUMBERS_COLOR" value="A3ABC0" />
-    <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="005AC1" />
-    <option name="LOOKUP_COLOR" value="FAFAFF" />
-    <option name="MATCHED_BRACES_INDENT_GUIDE_COLOR" value="62b3b3" />
+    <option name="INFORMATION_HINT" value="fafaff" />
+    <option name="LINE_NUMBERS_COLOR" value="a3abc0" />
+    <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="5ac1" />
+    <option name="LOOKUP_COLOR" value="fafaff" />
+    <option name="MATCHED_BRACES_INDENT_GUIDE_COLOR" value="7d85f8" />
     <option name="METHOD_SEPARATORS_COLOR" value="dfe1e5" />
     <option name="MODIFIED_LINES_COLOR" value="88adf7" />
     <option name="NOTIFICATION_BACKGROUND" value="fff8e3" />
@@ -47,7 +47,7 @@
     <option name="QUESTION_HINT" value="f5f8fe" />
     <option name="RECENT_LOCATIONS_SELECTION" value="e7effd" />
     <option name="RIGHT_MARGIN_COLOR" value="d8e2ff" />
-    <option name="SELECTED_INDENT_GUIDE" value="A3ABC0" />
+    <option name="SELECTED_INDENT_GUIDE" value="7d85f8" />
     <option name="SELECTION_BACKGROUND" value="adc6ff" />
     <option name="SELECTION_FOREGROUND" value="" />
     <option name="TEARLINE_COLOR" value="d4d4d4" />
@@ -115,8 +115,9 @@
     <option name="CUSTOM_STRING_ATTRIBUTES" baseAttributes="DEFAULT_STRING" />
     <option name="ComposableCallTextAttributes">
       <value>
-        <option name="FOREGROUND" value="9900" />
+        <option name="FOREGROUND" value="9d69" />
         <option name="FONT_TYPE" value="1" />
+        <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
     <option name="DEFAULT_ATTRIBUTE">
@@ -217,7 +218,7 @@
     </option>
     <option name="DEFAULT_METADATA">
       <value>
-        <option name="FOREGROUND" value="d73ab8" />
+        <option name="FOREGROUND" value="f542a7" />
       </value>
     </option>
     <option name="DEFAULT_NUMBER">
@@ -463,7 +464,7 @@
     <option name="TEXT">
       <value>
         <option name="FOREGROUND" value="1b1b1f" />
-        <option name="BACKGROUND" value="FAFAFF" />
+        <option name="BACKGROUND" value="fafaff" />
       </value>
     </option>
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">

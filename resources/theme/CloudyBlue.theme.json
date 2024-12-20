@@ -71,6 +71,12 @@
       "pressedBorderColor": "#00000000",
       "hoverSeparatorColor": "BorderColor"
     },
+    "Banner": {
+      "infoBackground": "#F2FBFF",
+      "warningBackground": "#FFFDF2",
+      "errorBackground": "#FFF2FB",
+      "successBackground": "#F2FFF6"
+    },
     "Borders.color": "BorderColor",
     "Button": {
       "background": "SecondaryBackground",
@@ -128,6 +134,11 @@
         "borderColor": "BorderColor"
       }
     },
+    "FileColor": {
+      "Yellow": "#FFFDF2",
+      "Blue": "#F2FBFF",
+      "Green": "#F2FFF6"
+    },
     "MainToolbar": {
       "background": "MainToolbarBackground",
       "foreground": "MainToolbarForeground",
@@ -160,7 +171,11 @@
       "background": "MainToolbarBackground",
       "foreground": "InverseOnSurface",
       "borderColor": "MainToolbarBackground",
-      "linkForeground": "InversePrimary"
+      "linkForeground": "InversePrimary",
+      "Button": {
+        "background": "MainToolbarBackground",
+        "borderColor": "PrimaryBackground"
+      }
     },
     "Popup": {
       "Header": {
