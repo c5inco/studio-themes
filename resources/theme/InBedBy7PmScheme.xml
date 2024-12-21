@@ -213,12 +213,12 @@
         </option>
         <option name="DEFAULT_BRACES">
             <value>
-                <option name="FOREGROUND" value="faf39f" />
+                <option name="FOREGROUND" value="9dd2e8" />
             </value>
         </option>
         <option name="DEFAULT_BRACKETS">
             <value>
-                <option name="FOREGROUND" value="faf39f" />
+                <option name="FOREGROUND" value="9dd2e8" />
             </value>
         </option>
         <option name="DEFAULT_CLASS_NAME">
@@ -326,7 +326,7 @@
         </option>
         <option name="DEFAULT_PARENTHS">
             <value>
-                <option name="FOREGROUND" value="faf39f" />
+                <option name="FOREGROUND" value="eeffff" />
             </value>
         </option>
         <option name="DEFAULT_REASSIGNED_LOCAL_VARIABLE">
@@ -435,6 +435,7 @@
                 <option name="FOREGROUND" value="5c92ff" />
             </value>
         </option>
+        <option name="Groovy method declaration" baseAttributes="METHOD_DECLARATION_ATTRIBUTES" />
         <option name="HTML_ATTRIBUTE_VALUE" baseAttributes="DEFAULT_STRING" />
         <option name="HTML_CUSTOM_TAG_NAME">
             <value>
@@ -670,6 +671,11 @@
                 <option name="BACKGROUND" value="3f4045" />
             </value>
         </option>
+        <option name="METHOD_CALL_ATTRIBUTES">
+            <value>
+                <option name="FOREGROUND" value="cdbef7" />
+            </value>
+        </option>
         <option name="NOT_TOP_FRAME_ATTRIBUTES">
             <value>
                 <option name="BACKGROUND" value="273552" />
@@ -828,7 +834,7 @@
         </option>
         <option name="XML_ATTRIBUTE_NAME">
             <value>
-                <option name="FOREGROUND" value="bcbec4" />
+                <option name="FOREGROUND" value="cde0be" />
             </value>
         </option>
         <option name="XML_CUSTOM_TAG_NAME">
@@ -838,22 +844,27 @@
         </option>
         <option name="XML_ENTITY_REFERENCE">
             <value>
-                <option name="FOREGROUND" value="56a8f5" />
+                <option name="FOREGROUND" value="0" />
             </value>
         </option>
         <option name="XML_PROLOGUE">
             <value>
-                <option name="FOREGROUND" value="d5b778" />
+                <option name="FOREGROUND" value="eeffff" />
             </value>
         </option>
         <option name="XML_TAG">
             <value>
-                <option name="FOREGROUND" value="d5b778" />
+                <option name="FOREGROUND" value="eeffff" />
             </value>
         </option>
         <option name="XML_TAG_NAME">
             <value>
-                <option name="FOREGROUND" value="d5b778" />
+                <option name="FOREGROUND" value="eeadf1" />
+            </value>
+        </option>
+        <option name="org.toml.KEY">
+            <value>
+                <option name="FOREGROUND" value="cdbef7" />
             </value>
         </option>
     </attributes>
