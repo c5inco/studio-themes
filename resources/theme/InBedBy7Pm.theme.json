@@ -13,10 +13,10 @@
     "MainToolbarBackground": "#292c3d",
     "MainToolbarForeground": "#ebecf1",
     "HoverBackground": "#474364",
-    "InputBackground": "#4C5052",
+    "InputBackground": "#34343A",
     "SeparatorFill": "#424659",
     "BorderColor": "#384379",
-    "InputBorderColor": "#5E6060",
+    "InputBorderColor": "#505B92",
     "OverlayBackground": "OverlayBackground",
     "SelectionActive": "#384379",
     "SelectionInactive": "#474364",
@@ -70,20 +70,21 @@
     "ActionButton": {
       "hoverBackground": "HoverBackground",
       "hoverBorderColor": "#00000000",
-      "pressedBackground": "SelectionInactive",
+      "pressedBackground": "#563E5C",
       "pressedBorderColor": "#00000000",
       "hoverSeparatorColor": "BorderColor"
     },
     "Borders.color": "BorderColor",
     "Button": {
       "background": "SecondaryBackground",
+      "foreground": "#DDE1FF",
       "startBorderColor": "InputBorderColor",
       "endBorderColor": "InputBorderColor",
       "focusedBorderColor": "PrimaryBackground",
       "startBackground": "InputBackground",
       "endBackground": "InputBackground",
       "default": {
-        "foreground": "Gray14",
+        "foreground": "#DDE1FF",
         "startBackground": "PrimaryBackground",
         "endBackground": "PrimaryBackground",
         "startBorderColor": "PrimaryBackground",
@@ -114,6 +115,7 @@
     },
     "DefaultTabs": {
       "background": "ContentBackground",
+      "hoverBackground": "#22222e",
       "underlinedTabBackground": "ContentBackground",
       "underlinedTabForeground": "Foreground"
     },
@@ -189,6 +191,7 @@
         "hoverForeground": "Foreground"
       }
     },
+    "TabbedPane.hoverColor": "#22222e",
     "TextField": {
       "background": "ContentBackground"
     },
@@ -207,7 +210,8 @@
       },
       "Button": {
         "hoverBackground": "HoverBackground",
-        "selectedBackground": "PrimaryBackground"
+        "selectedBackground": "#884487",
+        "selectedForeground": "#B9C3FF"
       },
       "Stripe": {
         "separatorColor": "BorderColor",
