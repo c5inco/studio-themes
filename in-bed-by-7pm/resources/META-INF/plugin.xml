@@ -1,0 +1,39 @@
+<!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
+<idea-plugin>
+  <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
+  <id>com.c5inco.studiothemes.inbedby7pm</id>
+  <version>1.0.0</version>
+
+  <!-- Public plugin name should be written in Title Case.
+       Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-name -->
+  <name>In Bed By 7pm Theme</name>
+  <category>UI</category>
+
+  <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
+  <vendor email="csinco.design@gmail.com" url="csinco.com">Chris Sinco</vendor>
+
+  <idea-version since-build="241" until-build="251.*"/>
+
+  <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
+       Simple HTML elements (text formatting, paragraphs, and lists) can be added inside of <![CDATA[ ]]> tag.
+       Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description -->
+  <description><![CDATA[
+    Popular purpley theme ported and adapted from the <a href="https://github.com/sdras/inbedby7pm">VS Code version</a>.
+    <br />
+    From the collection of <a href="https://github.com/c5inco/studio-themes">Studio Themes</a>.
+  ]]></description>
+
+  <!-- Short summary of new features and bugfixes in the latest plugin version.
+         Displayed on the Plugin Page and IDE Plugin Manager. Simple HTML elements can be included between <![CDATA[  ]]> tags. -->
+  <change-notes><![CDATA[
+    Distributed now as separate plugin.
+  ]]></change-notes>
+
+  <!-- Product and plugin compatibility requirements.
+       Read more: https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html -->
+  <depends>com.intellij.modules.platform</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="in-bed-by-7pm" path="/theme/inbedby7pm.theme.json"/>
+  </extensions>
+</idea-plugin>
