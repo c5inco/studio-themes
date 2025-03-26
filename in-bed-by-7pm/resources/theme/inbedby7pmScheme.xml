@@ -292,6 +292,12 @@
                 <option name="FOREGROUND" value="a5ffe2" />
             </value>
         </option>
+        <option name="DEFAULT_INTERFACE_NAME">
+            <value>
+                <option name="FOREGROUND" value="ebecf1" />
+                <option name="FONT_TYPE" value="2" />
+            </value>
+        </option>
         <option name="DEFAULT_INVALID_STRING_ESCAPE">
             <value>
                 <option name="FOREGROUND" value="cf8e6d" />
