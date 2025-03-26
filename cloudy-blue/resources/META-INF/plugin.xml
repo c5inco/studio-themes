@@ -2,7 +2,7 @@
 <idea-plugin>
   <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
   <id>com.c5inco.studiothemes.cloudyblue</id>
-  <version>1.0.0</version>
+  <version>1.0.1</version>
 
   <!-- Public plugin name should be written in Title Case.
        Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-name -->
@@ -26,7 +26,7 @@
   <!-- Short summary of new features and bugfixes in the latest plugin version.
          Displayed on the Plugin Page and IDE Plugin Manager. Simple HTML elements can be included between <![CDATA[  ]]> tags. -->
   <change-notes><![CDATA[
-    Distributed now as separate plugin.
+    - Make interface name different style from class name (<a href="https://github.com/c5inco/studio-themes/commit/61b17c54c3701e77ff3c0693c81aa8d496c42ae1">commit</a>)
   ]]></change-notes>
 
   <!-- Product and plugin compatibility requirements.
