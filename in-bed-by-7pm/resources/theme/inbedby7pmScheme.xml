@@ -415,7 +415,7 @@
             <value>
                 <option name="EFFECT_COLOR" value="fa6675" />
                 <option name="ERROR_STRIPE_COLOR" value="d64d5b" />
-                <option name="EFFECT_TYPE" value="2" />
+                <option name="EFFECT_TYPE" value="4" />
             </value>
         </option>
         <option name="EXECUTIONPOINT_ATTRIBUTES">
@@ -835,7 +835,8 @@
         </option>
         <option name="WRONG_REFERENCES_ATTRIBUTES">
             <value>
-                <option name="FOREGROUND" value="f44747" />
+                <option name="FOREGROUND" value="fa6675" />
+                <option name="FONT_TYPE" value="1" />
             </value>
         </option>
         <option name="XML_ATTRIBUTE_NAME">
