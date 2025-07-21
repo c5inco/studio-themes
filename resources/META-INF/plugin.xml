@@ -37,8 +37,8 @@
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <themeProvider id="CloudyBlue" path="/theme/CloudyBlue.theme.json" targetUi="new"/>
-        <themeProvider id="NewDarcula" path="/theme/NewDarcula.theme.json" targetUi="new"/>
-        <themeProvider id="InBedBy7Pm" path="/theme/InBedBy7Pm.theme.json" targetUi="new"/>
+        <themeProvider id="CloudyBlue" path="/theme/cloudyblue.theme.json" targetUi="new"/>
+        <themeProvider id="NewDarcula" path="/theme/newdarcula.theme.json" targetUi="new"/>
+        <themeProvider id="InBedBy7Pm" path="/theme/inbedby7pm.theme.json" targetUi="new"/>
     </extensions>
 </idea-plugin>

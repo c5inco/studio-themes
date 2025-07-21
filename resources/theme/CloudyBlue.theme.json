@@ -4,7 +4,7 @@
   "author": "Chris Sinco",
   "parentTheme": "ExperimentalLight",
   "nameKey": "cloudyblue.theme.name",
-  "editorScheme": "/CloudyBlueScheme.xml",
+  "editorScheme": "/cloudyblueScheme.xml",
   "colors": {
     "Seed": "#4285F4",
     "Debug": "#ff00ff",

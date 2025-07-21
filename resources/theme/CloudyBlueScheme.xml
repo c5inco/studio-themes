@@ -190,7 +190,8 @@
     </option>
     <option name="DEFAULT_INTERFACE_NAME">
       <value>
-        <option name="FOREGROUND" value="3692b9" />
+        <option name="FOREGROUND" value="1b1b1f" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="DEFAULT_INVALID_STRING_ESCAPE">
@@ -274,6 +275,13 @@
       <value>
         <option name="FOREGROUND" value="0" />
         <option name="EFFECT_COLOR" value="a8adbd" />
+      </value>
+    </option>
+    <option name="ERRORS_ATTRIBUTES">
+      <value>
+        <option name="EFFECT_COLOR" value="E60000" />
+        <option name="ERROR_STRIPE_COLOR" value="cf5b56" />
+        <option name="EFFECT_TYPE" value="4" />
       </value>
     </option>
     <option name="FOLDED_TEXT_ATTRIBUTES">
@@ -390,7 +398,7 @@
     </option>
     <option name="IDENTIFIER_UNDER_CARET_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="edebfc" />
+        <option name="BACKGROUND" value="e3e0ff" />
         <option name="ERROR_STRIPE_COLOR" value="d0a1ff" />
       </value>
     </option>
@@ -501,7 +509,8 @@
     </option>
     <option name="WRONG_REFERENCES_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="f50000" />
+        <option name="FOREGROUND" value="E60000" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="XML_CUSTOM_TAG_NAME">

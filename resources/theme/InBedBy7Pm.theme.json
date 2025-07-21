@@ -4,7 +4,7 @@
   "author": "Chris Sinco",
   "parentTheme": "ExperimentalDark",
   "nameKey": "inbedby7pm.theme.name",
-  "editorScheme": "/InBedBy7PmScheme.xml",
+  "editorScheme": "/inbedby7pmScheme.xml",
   "colors": {
     "Debug": "#ff00ff",
     "PrimaryBackground": "#4758A9",
