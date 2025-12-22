@@ -1,8 +1,8 @@
 {
-  "name": "Cloudy Blue",
+  "name": "Cloudy Blue 🏝️",
   "dark": false,
   "author": "Chris Sinco",
-  "parentTheme": "ExperimentalLight",
+  "parentTheme": "Islands Light",
   "nameKey": "cloudyblue.theme.name",
   "editorScheme": "/cloudyblueScheme.xml",
   "colors": {
@@ -10,20 +10,23 @@
     "Debug": "#ff00ff",
     "PrimaryBackground": "#005AC1",
     "ContentBackground": "#FAFAFF",
-    "SecondaryBackground": "#F2F4FF",
-    "MainToolbarBackground": "#001A41",
-    "MainToolbarForeground": "#d8e2ff",
+    "SecondaryBackground": "#FAFAFF",
+    "MainBackground": "#F2F4FF",
+    "MainToolbarBackground": "#FAFAFF",
+    "MainToolbarForeground": "#1B1B1F",
     "HoverBackground": "#d8e2ff",
     "SeparatorFill": "#74777F",
     "BorderColor": "#D8E2FF",
+    "OverlayBackground": "#d8e2ff",
+    "OverlayForeground": "#005AC1",
     "SelectionActive": "#D8E2FF",
-    "SelectionInactive": "#dbe2f9",
+    "SelectionInactive": "#E6EBFA",
     "SelectionForeground": "#001a41",
     "Foreground": "#1B1B1F",
     "SecondaryForeground": "#575e71",
     "DisabledForeground": "#6F778B",
-    "InverseSurface": "#2f3036",
-    "InverseOnSurface": "#f0f0f7",
+    "InverseSurface": "#005AC1",
+    "InverseOnSurface": "#D8E2FF",
     "InverseOnSurfaceSecondary": "#c4c6d0",
     "InversePrimary": "#adc6ff",
     "Outline": "#74777f",
@@ -47,7 +50,7 @@
   },
   "ui": {
     "*": {
-      "background": "SecondaryBackground",
+      "background": "MainBackground",
       "borderColor": "BorderColor",
       "selectionBackground": "SelectionActive",
       "selectionInactiveBackground": "SelectionInactive",
@@ -67,7 +70,7 @@
     "ActionButton": {
       "hoverBackground": "HoverBackground",
       "hoverBorderColor": "#00000000",
-      "pressedBackground": "SelectionInactive",
+      "pressedBackground": "SelectionActive",
       "pressedBorderColor": "#00000000",
       "hoverSeparatorColor": "BorderColor"
     },
@@ -79,29 +82,30 @@
     },
     "Borders.color": "BorderColor",
     "Button": {
-      "background": "SecondaryBackground",
+      "background": "MainBackground",
       "startBorderColor": "InversePrimary",
       "endBorderColor": "InversePrimary",
       "focusedBorderColor": "PrimaryBackground",
       "startBackground": "ContentBackground",
       "endBackground": "ContentBackground",
       "default": {
-        "foreground": "MainToolbarForeground",
-        "startBackground": "PrimaryBackground",
-        "endBackground": "PrimaryBackground",
-        "startBorderColor": "PrimaryBackground",
-        "endBorderColor": "PrimaryBackground",
+        "foreground": "InverseOnSurface",
+        "startBackground": "InverseSurface",
+        "endBackground": "InverseSurface",
+        "startBorderColor": "InverseSurface",
+        "endBorderColor": "InverseSurface",
         "focusedBorderColor": "Gray14"
       }
     },
+    "CheckBox.background": "MainBackground",
     "ComboBox": {
       "ArrowButton": {
-        "background": "ContentBackground",
+        "background": "MainBackground",
         "nonEditableBackground": "ContentBackground"
       },
       "background": "ContentBackground",
       "nonEditableBackground": "ContentBackground",
-      "disabledBackground": "SecondaryBackground"
+      "disabledBackground": "MainBackground"
     },
     "CompletionPopup": {
       "foreground": "Foreground",
@@ -115,6 +119,10 @@
       "borderColor": "InversePrimary",
       "focusedBorderColor": "ContentBackground"
     },
+    "Counter": {
+      "background": "PrimaryBackground",
+      "foreground": "BorderColor"
+    },
     "DefaultTabs": {
       "background": "ContentBackground",
       "underlinedTabBackground": "ContentBackground",
@@ -122,9 +130,13 @@
     },
     "EditorTabs": {
       "background": "ContentBackground",
-      "underlinedTabBackground": "ContentBackground",
+      "underlinedTabBackground": "HoverBackground",
+      "inactiveUnderlinedTabBackground": "SelectionInactive",
       "underlinedTabForeground": "Foreground",
-      "hoverBackground": "#00000000"
+      "hoverBackground": "#005AC110",
+      "underTabsBorderColor": "BorderColor",
+      "underlinedBorderColor": "SelectionActive",
+      "inactiveUnderlinedTabBorderColor": "BorderColor"
     },
     "Editor": {
       "SearchField": {
@@ -140,35 +152,42 @@
       "Green": "#F2FFF6"
     },
     "MainToolbar": {
-      "background": "MainToolbarBackground",
+      "background": "MainBackground",
+      "inactiveBackground": "MainBackground",
       "foreground": "MainToolbarForeground",
-      "inactiveBackground": "#001E49",
+      "borderColor": "#00000000",
       "separatorColor": "BorderColor",
       "Icon": {
         "background": "MainToolbarBackground",
-        "hoverBackground": "#FFFFFF1A",
+        "hoverBackground": "Debug",
         "pressedBackground": "#FFFFFF29"
       },
       "Dropdown": {
         "foreground": "MainToolbarForeground",
         "background": "MainToolbarBackground",
-        "hoverBackground": "#FFFFFF1A",
-        "transparentHoverBackground": "#FFFFFF1A",
-        "pressedBackground": "#FFFFFF29"
+        "hoverBackground": "HoverBackground",
+        "transparentHoverBackground": "#005AC110",
+        "pressedBackground": "#005AC110"
       }
     },
-    "MainWindow.Tab": {
-      "selectedForeground": "MainToolbarForeground",
-      "selectedBackground": "MainToolbarBackground",
-      "selectedInactiveBackground": "#001E49",
-      "foreground": "InversePrimary",
-      "background": "#00285D",
-      "hoverBackground": "#001E49",
-      "separatorColor": "#004494",
-      "borderColor": "#003271"
+    "MainWindow": {
+      "background": "MainBackground",
+      "Tab": {
+        "selectedForeground": "MainToolbarForeground",
+        "selectedBackground": "BorderColor",
+        "selectedInactiveBackground": "MainToolbarBackground",
+        "foreground": "SecondaryForeground",
+        "hoverBackground": "#005AC110",
+        "separatorColor": "BorderColor",
+        "borderColor": "BorderColor"
+      }
     },
+    "Island": {
+      "borderColor": "BorderColor"
+    },
+    "List.background": "SecondaryBackground",
     "Notification": {
-      "background": "MainToolbarBackground",
+      "background": "InverseSurface",
       "foreground": "InverseOnSurface",
       "borderColor": "MainToolbarBackground",
       "linkForeground": "InversePrimary",
@@ -177,14 +196,20 @@
         "borderColor": "PrimaryBackground"
       }
     },
+    "Panel.background": "MainBackground",
     "Popup": {
       "Header": {
-        "activeBackground": "SecondaryBackground",
-        "inactiveBackground": "SecondaryBackground",
+        "activeBackground": "MainBackground",
+        "inactiveBackground": "MainBackground",
         "inactiveForeground": "SecondaryForeground"
       }
     },
+    "ScrollBar": {
+      "background": "SecondaryBackground"
+    },
+    "SidePanel.background": "MainBackground",
     "StatusBar": {
+      "borderColor": "#00000000",
       "Widget": {
         "foreground": "DisabledForeground",
         "hoverForeground": "Foreground",
@@ -195,18 +220,18 @@
         "hoverForeground": "Foreground"
       }
     },
+    "Table.background": "SecondaryBackground",
     "TextField": {
       "background": "ContentBackground"
     },
     "ToolTip": {
-      "background": "MainToolbarBackground",
-      "foreground": "InverseOnSurface",
-      "infoForeground": "InverseOnSurfaceSecondary",
-      "shortcutForeground": "InverseOnSurfaceSecondary",
-      "linkForeground": "InversePrimary",
-      "borderColor": "Outline"
+      "background": "OverlayBackground",
+      "foreground": "Foreground",
+      "linkForeground": "PrimaryBackground",
+      "borderColor": "BorderColor"
     },
     "ToolWindow": {
+      "background": "SecondaryBackground",
       "Header": {
         "inactiveBackground": "SecondaryBackground"
       },
@@ -215,6 +240,7 @@
         "selectedBackground": "PrimaryBackground"
       },
       "Stripe": {
+        "borderColor": "#00000000",
         "separatorColor": "BorderColor",
         "DragAndDrop": {
           "separatorColor": "BorderColor"
@@ -222,6 +248,7 @@
       }
     },
     "Tree": {
+      "background": "SecondaryBackground",
       "collapsedIcon": "/theme/icons/chevronRight.svg",
       "collapsedSelectedIcon": "/theme/icons/chevronRight.svg",
       "expandedIcon": "/theme/icons/chevronDown.svg",
