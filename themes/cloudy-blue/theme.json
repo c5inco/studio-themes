@@ -1,52 +1,51 @@
 {
-  "name": "In Bed By 7pm 🏝️",
-  "dark": true,
+  "name": "Cloudy Blue 🏝️",
+  "dark": false,
   "author": "Chris Sinco",
-  "parentTheme": "Islands Dark",
-  "nameKey": "inbedby7pm.theme.name",
-  "editorScheme": "/InBedBy7PmScheme.xml",
+  "parentTheme": "Islands Light",
+  "nameKey": "cloudyblue.theme.name",
+  "editorScheme": "/cloudyblueScheme.xml",
   "colors": {
+    "Seed": "#4285F4",
     "Debug": "#ff00ff",
-    "PrimaryBackground": "#4758A9",
-    "ContentBackground": "#292c3d",
-    "SecondaryBackground": "#292c3d",
-    "MainBackground": "#33374d",
-    "MainToolbarBackground": "#292c3d",
-    "MainToolbarForeground": "#ebecf1",
-    "HoverBackground": "#474364",
-    "InputBackground": "#34343A",
-    "SeparatorFill": "#424659",
-    "BorderColor": "#384379",
-    "InputBorderColor": "#505B92",
-    "OverlayBackground": "#292c3d",
-    "SelectionActive": "#384379",
-    "SelectionInactive": "#474364",
+    "PrimaryBackground": "#005AC1",
+    "ContentBackground": "#FAFAFF",
+    "SecondaryBackground": "#FAFAFF",
+    "MainBackground": "#F2F4FF",
+    "MainToolbarBackground": "#FAFAFF",
+    "MainToolbarForeground": "#1B1B1F",
+    "HoverBackground": "#d8e2ff",
+    "SeparatorFill": "#74777F",
+    "BorderColor": "#D8E2FF",
+    "OverlayBackground": "#d8e2ff",
+    "OverlayForeground": "#005AC1",
+    "SelectionActive": "#D8E2FF",
+    "SelectionInactive": "#E6EBFA",
     "SelectionForeground": "#001a41",
-    "Foreground": "#ebecf1",
-    "SecondaryForeground": "#89a4bb",
-    "DisabledForeground": "#777777",
-    "InverseSurface": "#2f3036",
-    "InverseOnSurface": "#E3E1E9",
+    "Foreground": "#1B1B1F",
+    "SecondaryForeground": "#575e71",
+    "DisabledForeground": "#6F778B",
+    "InverseSurface": "#005AC1",
+    "InverseOnSurface": "#D8E2FF",
     "InverseOnSurfaceSecondary": "#c4c6d0",
-    "InversePrimary": "#B9C3FF",
-    "Outline": "#384379",
-    "OutlineVariant": "#C2C6D6",
-    "IconGrayStroke": "#B9C3FF"
+    "InversePrimary": "#adc6ff",
+    "Outline": "#74777f",
+    "OutlineVariant": "#C2C6D6"
   },
   "icons": {
     "ColorPalette": {
-      "Actions.GreyInline": "IconGrayStroke",
-      "Gray.Stroke": "IconGrayStroke",
-      "Gray.SecondaryStroke": "IconGrayStroke",
-      "Tree.iconColor": "IconGrayStroke",
-      "Gray.Fill": "#AFB1B31A",
+      "Actions.GreyInline": "#005AC1",
+      "Gray.Stroke": "#005AC1",
+      "Gray.SecondaryStroke": "#005AC1",
+      "Tree.iconColor": "#005AC1",
+      "Gray.Fill": "#D8E2FF",
       "Checkbox.Background.Default": "ContentBackground",
-      "Checkbox.Border.Default": "InputBorderColor",
-      "Checkbox.Foreground.Selected": "Gray14",
-      "Checkbox.Background.Selected": "PrimaryBackground",
+      "Checkbox.Border.Default": "InversePrimary",
+      "Checkbox.Foreground.Selected": "PrimaryBackground",
+      "Checkbox.Background.Selected": "#D8E2FF",
       "Checkbox.Border.Selected": "PrimaryBackground",
       "Checkbox.Focus.Wide": "PrimaryBackground",
-      "Objects.Grey": "IconGrayStroke"
+      "Objects.Grey": "#005AC1"
     }
   },
   "ui": {
@@ -54,10 +53,10 @@
       "background": "MainBackground",
       "borderColor": "BorderColor",
       "selectionBackground": "SelectionActive",
-      "selectionInactiveBackground": "MainBackground",
-      "selectionForeground": "Foreground",
-      "selectionInactiveForeground": "Foreground",
-      "hoverBackground": "HoverBackground",
+      "selectionInactiveBackground": "SelectionInactive",
+      "selectionForeground": "SelectionForeground",
+      "selectionInactiveForeground": "SelectionForeground",
+      "hoverBackground": "#D8E2FF",
       "infoForeground": "SecondaryForeground",
       "disabledForeground": "DisabledForeground",
       "inactiveForeground": "DisabledForeground",
@@ -66,41 +65,46 @@
       "shortcutForeground": "DisabledForeground",
       "separatorColor": "BorderColor",
       "underlineColor": "PrimaryBackground",
-      "inactiveUnderlineColor": "SelectionInactive"
+      "inactiveUnderlineColor": "#BFC6DC"
     },
     "ActionButton": {
       "hoverBackground": "HoverBackground",
       "hoverBorderColor": "#00000000",
-      "pressedBackground": "#563E5C",
+      "pressedBackground": "SelectionActive",
       "pressedBorderColor": "#00000000",
       "hoverSeparatorColor": "BorderColor"
     },
+    "Banner": {
+      "infoBackground": "#F2FBFF",
+      "warningBackground": "#FFFDF2",
+      "errorBackground": "#FFF2FB",
+      "successBackground": "#F2FFF6"
+    },
     "Borders.color": "BorderColor",
     "Button": {
-      "background": "SecondaryBackground",
-      "foreground": "#DDE1FF",
-      "startBorderColor": "InputBorderColor",
-      "endBorderColor": "InputBorderColor",
+      "background": "MainBackground",
+      "startBorderColor": "InversePrimary",
+      "endBorderColor": "InversePrimary",
       "focusedBorderColor": "PrimaryBackground",
-      "startBackground": "InputBackground",
-      "endBackground": "InputBackground",
+      "startBackground": "ContentBackground",
+      "endBackground": "ContentBackground",
       "default": {
-        "foreground": "#DDE1FF",
-        "startBackground": "PrimaryBackground",
-        "endBackground": "PrimaryBackground",
-        "startBorderColor": "PrimaryBackground",
-        "endBorderColor": "PrimaryBackground",
-        "focusedBorderColor": "PrimaryBackground"
+        "foreground": "InverseOnSurface",
+        "startBackground": "InverseSurface",
+        "endBackground": "InverseSurface",
+        "startBorderColor": "InverseSurface",
+        "endBorderColor": "InverseSurface",
+        "focusedBorderColor": "Gray14"
       }
     },
-    "CheckBox.background": "SecondaryBackground",
+    "CheckBox.background": "MainBackground",
     "ComboBox": {
       "ArrowButton": {
         "background": "MainBackground",
-        "nonEditableBackground": "MainBackground"
+        "nonEditableBackground": "ContentBackground"
       },
-      "background": "MainBackground",
-      "nonEditableBackground": "MainBackground",
+      "background": "ContentBackground",
+      "nonEditableBackground": "ContentBackground",
       "disabledBackground": "MainBackground"
     },
     "CompletionPopup": {
@@ -112,28 +116,27 @@
       }
     },
     "Component": {
-      "borderColor": "InputBorderColor",
+      "borderColor": "InversePrimary",
       "focusedBorderColor": "ContentBackground"
     },
     "Counter": {
       "background": "PrimaryBackground",
-      "foreground": "Foreground"
+      "foreground": "BorderColor"
     },
     "DefaultTabs": {
       "background": "ContentBackground",
-      "hoverBackground": "#22222e",
       "underlinedTabBackground": "ContentBackground",
       "underlinedTabForeground": "Foreground"
     },
     "EditorTabs": {
       "background": "ContentBackground",
-      "underlinedTabBackground": "ContentBackground",
-      "inactiveUnderlinedTabBackground": "ContentBackground",
+      "underlinedTabBackground": "HoverBackground",
+      "inactiveUnderlinedTabBackground": "SelectionInactive",
       "underlinedTabForeground": "Foreground",
-      "hoverBackground": "HoverBackground",
+      "hoverBackground": "#005AC110",
       "underTabsBorderColor": "BorderColor",
       "underlinedBorderColor": "SelectionActive",
-      "inactiveUnderlinedTabBorderColor": "SelectionInactive"
+      "inactiveUnderlinedTabBorderColor": "BorderColor"
     },
     "Editor": {
       "SearchField": {
@@ -143,7 +146,11 @@
         "borderColor": "BorderColor"
       }
     },
-    "EditorPane.splitBorder": "BorderColor",
+    "FileColor": {
+      "Yellow": "#FFFDF2",
+      "Blue": "#F2FBFF",
+      "Green": "#F2FFF6"
+    },
     "MainToolbar": {
       "background": "MainBackground",
       "inactiveBackground": "MainBackground",
@@ -152,45 +159,44 @@
       "separatorColor": "BorderColor",
       "Icon": {
         "background": "MainToolbarBackground",
-        "hoverBackground": "HoverBackground",
-        "pressedBackground": "HoverBackground"
+        "hoverBackground": "Debug",
+        "pressedBackground": "#FFFFFF29"
       },
       "Dropdown": {
         "foreground": "MainToolbarForeground",
         "background": "MainToolbarBackground",
         "hoverBackground": "HoverBackground",
-        "transparentHoverBackground": "HoverBackground",
-        "pressedBackground": "#FFFFFF29"
+        "transparentHoverBackground": "#005AC110",
+        "pressedBackground": "#005AC110"
       }
     },
     "MainWindow": {
       "background": "MainBackground",
       "Tab": {
         "selectedForeground": "MainToolbarForeground",
-        "selectedBackground": "MainToolbarBackground",
+        "selectedBackground": "BorderColor",
         "selectedInactiveBackground": "MainToolbarBackground",
         "foreground": "SecondaryForeground",
-        "background": "OverlayBackground",
-        "hoverBackground": "HoverBackground",
+        "hoverBackground": "#005AC110",
         "separatorColor": "BorderColor",
         "borderColor": "BorderColor"
       }
     },
     "Island": {
-      "borderColor": "SecondaryBackground"
+      "borderColor": "BorderColor"
     },
     "List.background": "SecondaryBackground",
     "Notification": {
-      "background": "OverlayBackground",
+      "background": "InverseSurface",
       "foreground": "InverseOnSurface",
-      "borderColor": "BorderColor",
+      "borderColor": "MainToolbarBackground",
       "linkForeground": "InversePrimary",
       "Button": {
-        "background": "OverlayBackground",
+        "background": "MainToolbarBackground",
         "borderColor": "PrimaryBackground"
       }
     },
-    "Panel.background": "SecondaryBackground",
+    "Panel.background": "MainBackground",
     "Popup": {
       "Header": {
         "activeBackground": "MainBackground",
@@ -198,50 +204,40 @@
         "inactiveForeground": "SecondaryForeground"
       }
     },
-    "Plugins": {
-      "background":"SecondaryBackground",
-      "SearchField.background": "SecondaryBackground"
-    },
     "ScrollBar": {
       "background": "SecondaryBackground"
     },
-    "SidePanel.background": "SecondaryBackground",
+    "SidePanel.background": "MainBackground",
     "StatusBar": {
       "borderColor": "#00000000",
       "Widget": {
-        "foreground": "SecondaryForeground",
+        "foreground": "DisabledForeground",
         "hoverForeground": "Foreground",
         "pressedBackground": "SelectionInactive"
       },
       "Breadcrumbs": {
-        "foreground": "SecondaryForeground",
+        "foreground": "DisabledForeground",
         "hoverForeground": "Foreground"
       }
     },
     "Table.background": "SecondaryBackground",
-    "TabbedPane.hoverColor": "#22222e",
     "TextField": {
       "background": "ContentBackground"
     },
     "ToolTip": {
       "background": "OverlayBackground",
-      "foreground": "InverseOnSurface",
-      "infoForeground": "InverseOnSurfaceSecondary",
-      "shortcutForeground": "InverseOnSurfaceSecondary",
-      "linkForeground": "InversePrimary",
+      "foreground": "Foreground",
+      "linkForeground": "PrimaryBackground",
       "borderColor": "BorderColor"
     },
-    "ToolBar.separatorColor": "SeparatorFill",
     "ToolWindow": {
       "background": "SecondaryBackground",
       "Header": {
-        "background": "SecondaryBackground",
         "inactiveBackground": "SecondaryBackground"
       },
       "Button": {
         "hoverBackground": "HoverBackground",
-        "selectedBackground": "#884487",
-        "selectedForeground": "#B9C3FF"
+        "selectedBackground": "PrimaryBackground"
       },
       "Stripe": {
         "borderColor": "#00000000",
@@ -253,10 +249,10 @@
     },
     "Tree": {
       "background": "SecondaryBackground",
-      "collapsedIcon": "/theme/icons/inBedBy7Pm/chevronRight.svg",
-      "collapsedSelectedIcon": "/theme/icons/inBedBy7Pm/chevronRight.svg",
-      "expandedIcon": "/theme/icons/inBedBy7Pm/chevronDown.svg",
-      "expandedSelectedIcon": "/theme/icons/inBedBy7Pm/chevronDown.svg"
+      "collapsedIcon": "/theme/icons/chevronRight.svg",
+      "collapsedSelectedIcon": "/theme/icons/chevronRight.svg",
+      "expandedIcon": "/theme/icons/chevronDown.svg",
+      "expandedSelectedIcon": "/theme/icons/chevronDown.svg"
     }
   }
 }

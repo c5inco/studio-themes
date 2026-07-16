@@ -1,0 +1,10 @@
+{
+  "pluginId": "com.c5inco.studiothemes",
+  "pluginName": "Studio Themes",
+  "version": "1.1.0",
+  "includedThemes": [
+    "cloudy-blue",
+    "islands-darcula",
+    "in-bed-by-7pm"
+  ]
+}

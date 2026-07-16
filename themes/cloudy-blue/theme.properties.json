@@ -1,0 +1,15 @@
+{
+  "pluginId": "com.c5inco.studiothemes.cloudyblue",
+  "pluginName": "Cloudy Blue Theme",
+  "version": "1.0.4",
+  "themeProviderId": "cloudy-blue",
+  "standaloneThemeFile": "cloudyblue.theme.json",
+  "standaloneSchemeFile": "cloudyblueScheme.xml",
+  "includeInAggregate": true,
+  "aggregate": {
+    "themeProviderId": "CloudyBlue",
+    "themeFile": "CloudyBlue.theme.json",
+    "schemeFile": "CloudyBlueScheme.xml",
+    "iconDirectory": "cloudyBlue"
+  }
+}

@@ -12,7 +12,7 @@
   <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
   <vendor email="csinco.design@gmail.com" url="csinco.com">Chris Sinco</vendor>
 
-  <idea-version since-build="241"/>
+  <idea-version since-build="252"/>
 
   <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
        Simple HTML elements (text formatting, paragraphs, and lists) can be added inside of <![CDATA[ ]]> tag.
@@ -26,7 +26,7 @@
   <!-- Short summary of new features and bugfixes in the latest plugin version.
          Displayed on the Plugin Page and IDE Plugin Manager. Simple HTML elements can be included between <![CDATA[  ]]> tags. -->
   <change-notes><![CDATA[
-    - Update IJ compatibility to versions after 241
+    - Align IntelliJ compatibility with the rest of Studio Themes at build 252+
   ]]></change-notes>
 
   <!-- Product and plugin compatibility requirements.

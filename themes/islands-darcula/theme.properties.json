@@ -1,0 +1,13 @@
+{
+  "pluginId": "om.c5inco.studiothemes.islandsdarcula",
+  "pluginName": "Islands Darcula Theme",
+  "version": "1.0.0",
+  "themeProviderId": "islands-darcula",
+  "standaloneThemeFile": "islandsdarcula.theme.json",
+  "includeInAggregate": true,
+  "aggregate": {
+    "themeProviderId": "IslandsDarcula",
+    "themeFile": "IslandsDarcula.theme.json",
+    "iconDirectory": "islandsDarcula"
+  }
+}
