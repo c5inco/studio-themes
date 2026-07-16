@@ -1,0 +1,8 @@
+{
+  "pluginId": "com.c5inco.studiothemes.newdarcula",
+  "pluginName": "New Darcula Theme",
+  "version": "1.0.1",
+  "themeProviderId": "new-darcula",
+  "standaloneThemeFile": "newdarcula.theme.json",
+  "includeInAggregate": false
+}

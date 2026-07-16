@@ -1,3 +1,7 @@
 out
 *.jar
 .DS_Store
+.gradle
+.intellijPlatform
+build
+**/build

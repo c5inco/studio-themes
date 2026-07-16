@@ -1,0 +1,15 @@
+{
+  "pluginId": "com.c5inco.studiothemes.inbedby7pm",
+  "pluginName": "In Bed By 7pm Theme",
+  "version": "1.0.4",
+  "themeProviderId": "in-bed-by-7pm",
+  "standaloneThemeFile": "inbedby7pm.theme.json",
+  "standaloneSchemeFile": "inbedby7pmScheme.xml",
+  "includeInAggregate": true,
+  "aggregate": {
+    "themeProviderId": "InBedBy7Pm",
+    "themeFile": "InBedBy7Pm.theme.json",
+    "schemeFile": "InBedBy7PmScheme.xml",
+    "iconDirectory": "inBedBy7Pm"
+  }
+}
